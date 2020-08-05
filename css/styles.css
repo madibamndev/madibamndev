@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+    color: rgba(0, 100, 0, 1);
+    font-family: 'Jost', sans-serif;
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+nav a {
+    color: cornsilk;
+    font-weight: 500;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: cornsilk;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,100,0 ,1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.list-group-item {
+    background: darkseagreen;
+}
+
+.list-group-item a {
+    color: cornsilk;
+}
