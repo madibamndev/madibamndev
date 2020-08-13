@@ -34,8 +34,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
-                    <nav class="navbar navbar-expand-lg rounded shadow-lg" style="background-color: darkseagreen;">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-2">
+                    <nav class="navbar navbar-expand-lg shadow-lg" style="background-color: darkseagreen;">
                         <a class="navbar-brand" href="index.html">AAPE</a>
                         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -45,25 +45,31 @@
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
-                                 <li class="nav-item">
-                                     <a class="nav-link" href="index.html">Home</a>
-                                 </li>
-                                 <li class="nav-item">
-                                     <a class="nav-link" href="about.html">About Us</a>
-                                 </li>
-                                 <li class="nav-item">
-                                     <a class="nav-link" href="activities.html">Activities</a>
-                                 </li>
-                                 <li class="nav-item">
-                                     <a class="nav-link" href="blog.html">Blog</a>
-                                 </li>
-                                 <li class="nav-item">
-                                     <a class="nav-link" href="members.html">Our Membership</a>
-                                 </li>
-                                 <li class="nav-item">
-                                     <a class="nav-link" href="contact.html">Contact</a>
-                                 </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="activities.html">Activities</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="members.html">Our Membership</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
                             </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
                         </div>
                     </nav>
                 </div>
@@ -116,36 +122,45 @@
         <footer>
             <div class="row">
                 <div class="col">
-                    <div class="card text-center border-0" style="background-color: transparent;">
-                        <div class="card-body">
-                            <a class="facebook" target="_blank" href="https://www.facebook.com/">
-                                <i class="fa fa-2x fa-facebook" style="color: #3b5999;padding-right: 30px;"
-                                    aria-hidden="true"></i>
-                            </a>
-                            <a class="twitter" target="_blank" href="https://twitter.com/">
-                                <i class="fa fa-2x fa-twitter" style="color: #55acee;padding-right: 30px;"
-                                    aria-hidden="true"></i>
-                            </a>
-                            <a class="linkedin" target="_blank" href="https://www.linkedin.com/">
-                                <i class="fa fa-2x fa-linkedin" style="color: #2867b2;padding-right: 30px;"
-                                    aria-hidden="true"></i>
-                            </a>
-                        </div>
+                    <div class="text-center p-2">
+                        <a class="facebook text-decoration-none" target="_blank" href="https://www.facebook.com/">
+                            <i class="fa fa-2x fa-facebook py-2 pr-5" style="color: #3b5999;" aria-hidden="true"></i>
+                        </a>
+                        <a class="twitter text-decoration-none" target="_blank" href="https://twitter.com/">
+                            <i class="fa fa-2x fa-twitter pr-5" style="color: #55acee;" aria-hidden="true"></i>
+                        </a>
+                        <a class="linkedin text-decoration-none" target="_blank" href="https://www.linkedin.com/">
+                            <i class="fa fa-2x fa-linkedin pr-5" style="color: #2867b2;" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="card text-center border-0" style="background: cornsilk; color: darkgreen;">
-                        <div class="card-body">
-                            <small>© Copyright 2020. 
-                                <a target="_blank" href="someone@example.com">African Agricultural Professionals in Europe</a><br>
-                                C/o KARLTUN<br>
-                                ULLSAXVÄGEN 14<br>
-                                City: 756 56 Uppsala<br>
-                                County: Uppsala län
-                            </small>
-                        </div>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center" style="background: cornsilk;">
+                            <li class="breadcrumb-item"><a href="index.html" style="color: darkgreen;">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                            <li class="breadcrumb-item"><a href="activities.html" style="color: darkgreen;">Activities</a></li>
+                            <li class="breadcrumb-item"><a href="blog.html" style="color: darkgreen;">Blog</a></li>
+                            <li class="breadcrumb-item"><a href="members.html" style="color: darkgreen;">Our Membership</a></li>
+                            <li class="breadcrumb-item"><a href="contact.html" style="color: darkgreen;">Contact</a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="text-center p-2">
+                        <small>© Copyright 2020.
+                            <a target="_blank" href="someone@example.com">African Agricultural Professionals in
+                                Europe</a><br>
+                            C/o KARLTUN<br>
+                            ULLSAXVÄGEN 14<br>
+                            City: 756 56 Uppsala<br>
+                            County: Uppsala län
+                        </small>
                     </div>
                 </div>
             </div>
